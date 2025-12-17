@@ -39,9 +39,11 @@ It is highly recommended to use a virtual environment:
 
 # Create and activate environment (Windows)
 python -m venv venv
+
 .\venv\Scripts\activate
 
 # Or activate environment (Linux/macOS)
+
 # source venv/bin/activate
 
 
