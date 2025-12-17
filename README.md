@@ -19,6 +19,7 @@ An end-to-end machine learning project for detecting network intrusions (anomali
 ⦁	Configuration: All model and data parameters are easily configurable via config.py.
 
 
+
 🛠️ Project Setup
 
 Prerequisites
@@ -62,6 +63,7 @@ This repository does not include the large dataset (kdd_train.csv).
 ⦁	Rename the file to kdd_train.csv to match the path defined in config.py.
 
 
+
 ▶️ Execution
 
 Run the main script from the root of the project folder:
@@ -69,26 +71,12 @@ Run the main script from the root of the project folder:
 python network_anomaly_detection/main.py
 
 
+
 📊 Results 
 
 OverviewThe supervised models demonstrated high performance on the KDD test set, confirming the separability of the features after preprocessing.
 
 
-📂 Repository Structure
 
-.
-├── .gitignore
-├── README.md
-├── network_anomaly_detection/
-│   ├── __init__.py          # Marks the directory as a Python package (optional, but good practice)
-│   ├── main.py              # Main script to run the entire pipeline.
-│   ├── config.py            # Project configuration and hyperparameters.
-│   ├── data_handler.py      # Functions for loading, cleaning, and splitting data.
-│   ├── model_trainer.py     # Functions for training, evaluating, and plotting results.
-│   └── requirements.txt     # List of all Python dependencies.
-│
-├── data/
-│   └── kdd_train.csv        # KDD Dataset (ignored by Git).
-└── venv/                    # Virtual environment (ignored by Git).
 
 
